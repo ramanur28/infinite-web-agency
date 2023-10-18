@@ -1,0 +1,54 @@
+.jumbotron {
+  background-color: var(--black);
+  position: relative;
+  overflow: hidden;
+}
+
+.logo,
+.brand {
+  position: absolute;
+}
+
+.logo {
+  top: 65%;
+  left: 25%;
+  width: 725px;
+  height: auto;
+}
+
+.brand {
+  color: var(--white);
+  font-weight: bold;
+  top: 25%;
+  left: 30%;
+  font-size: 200px;
+}
+
+.lead {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  color: var(--white);
+}
+
+.lead p {
+  width: 190px;
+  opacity: 0.7;
+}
+
+.button {
+  text-decoration: none;
+  color: var(--white);
+  border: 1px solid var(--white);
+  border-radius: 20px;
+  padding: 13px 20px;
+  opacity: 0.7;
+}
+
+.button:hover {
+  opacity: 1;
+  transition: 0.6s;
+}
